@@ -1,15 +1,12 @@
 {
-  "version": "V8",
-  "html_files": 62,
-  "total_files": 103,
+  "version": 9,
+  "html_files": 64,
+  "total_files": 109,
   "broken_internal_links": [],
-  "duplicate_cup_image_refs": {},
-  "2026_images": [
-    "kristianstad-fairway.jpg",
-    "kristianstad-water.jpg",
-    "kristianstad-clubhouse.jpg",
-    "kristianstad-lodge.jpg",
-    "kristianstad-bunkers.jpg",
-    "kristianstad-evening-green.jpg"
-  ]
+  "pages_missing_mobile_menu": [],
+  "live_pages": [
+    "live.html",
+    "live-match.html"
+  ],
+  "live_backend": "prototype-localStorage-only; shared Supabase/database not yet connected"
 }
