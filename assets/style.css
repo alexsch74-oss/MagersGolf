@@ -74,3 +74,32 @@ table{border-radius:14px;overflow:hidden}tr:hover td{background:rgba(255,255,255
 .halved-label{display:inline-block;border:1px solid var(--gold);border-radius:999px;padding:4px 8px;font:800 10px Arial,sans-serif;letter-spacing:.08em;color:#6b562e}
 .weekend-summary{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.day-card{background:var(--white);border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 10px 35px rgba(20,36,25,.035)}.day-card h3{margin:7px 0 12px}.day-score{font-size:24px;font-weight:800;color:var(--green);margin-bottom:10px}.day-card p{color:#3f463f;margin-bottom:0}
 @media(max-width:860px){.weekend-summary{grid-template-columns:1fr}.hero-logo{width:170px}}
+\n/* V8 storytelling and 2026 visual layer */
+.cup-journey{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin:20px 0 30px}
+.journey-step{background:#fff;border:1px solid #ddd5c5;border-radius:18px;padding:18px;position:relative}
+.journey-step:not(:last-child)::after{content:"→";position:absolute;right:-12px;top:44%;color:#a98131;font-weight:900;font-size:22px;z-index:2}
+.journey-step small{display:block;text-transform:uppercase;letter-spacing:.08em;color:#8a6a2c;font-weight:800;margin-bottom:6px}
+.journey-step strong{display:block;font:800 24px/1.1 Georgia,serif;color:#10291d;margin:6px 0}
+.journey-step p{margin:8px 0 0;color:#655f53;font-size:14px}
+.cup-story{background:#f6f0e4;border:1px solid #e0d4bd;border-radius:22px;padding:26px;margin:18px 0 34px}
+.cup-story p{font-size:17px;line-height:1.7;margin:0 0 13px;color:#2b302b}
+.cup-story p:last-child{margin-bottom:0}
+.career-markers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:20px 0 34px}
+.career-marker{background:#10291d;color:#fff;border-radius:18px;padding:20px;min-height:126px}
+.career-marker small{display:block;color:#f0d497;text-transform:uppercase;font-weight:800;letter-spacing:.08em;margin-bottom:8px}
+.career-marker strong{display:block;font:800 22px/1.2 Georgia,serif;color:#fff;margin-bottom:7px}
+.career-marker p{color:#edf2eb;margin:0;line-height:1.5;font-size:14px}
+.course-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:24px 0 34px}
+.course-gallery figure{margin:0;position:relative;overflow:hidden;border-radius:18px;background:#10291d;min-height:220px}
+.course-gallery figure:first-child{grid-row:span 2;min-height:454px}
+.course-gallery img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.course-gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 16px 14px;background:linear-gradient(transparent,rgba(0,0,0,.78));color:#fff;font-size:13px;font-weight:700}
+.course-links{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 24px}
+.course-link{display:inline-block;padding:11px 15px;border-radius:999px;background:#10291d;color:#fff;text-decoration:none;font-weight:800;font-size:14px}
+.course-link:hover{background:#244c36}
+.current-hero-photo{margin:-2px 0 30px;border-radius:24px;overflow:hidden;height:360px;position:relative;background:#10291d}
+.current-hero-photo img{width:100%;height:100%;object-fit:cover}
+.current-hero-photo span{position:absolute;left:18px;bottom:16px;background:rgba(8,26,18,.88);color:#fff;padding:9px 12px;border-radius:999px;font-size:13px;font-weight:800}
+.evening{background:#071a11!important;color:#fff!important;border:1px solid rgba(240,212,151,.48)!important;box-shadow:0 8px 24px rgba(0,0,0,.12)!important}
+.evening p,.evening h3,.evening b{color:#fff!important}.evening>b{color:#f3d58f!important}.evening p b{color:#fff!important}
+@media(max-width:800px){.journey-step:not(:last-child)::after{display:none}.course-gallery{grid-template-columns:1fr}.course-gallery figure,.course-gallery figure:first-child{grid-row:auto;min-height:260px}.current-hero-photo{height:260px}}
