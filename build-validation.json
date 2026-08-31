@@ -1,12 +1,22 @@
 {
-  "version": 9,
-  "html_files": 64,
-  "total_files": 109,
-  "broken_internal_links": [],
+  "version": 10,
+  "html_files": 65,
+  "total_files": 110,
+  "broken_internal_links": 0,
+  "broken_details": [],
   "pages_missing_mobile_menu": [],
-  "live_pages": [
-    "live.html",
-    "live-match.html"
+  "approved_portraits_integrated": 22,
+  "approved_portrait_exceptions": [
+    "Benny Eklund — approved Drive PNG is 34 bytes; existing website portrait retained",
+    "Markus Lindström — no approved top-level Drive portrait yet; existing website portrait retained"
   ],
-  "live_backend": "prototype-localStorage-only; shared Supabase/database not yet connected"
+  "live_backend": "prototype-localStorage-only; shared Supabase/database not yet connected",
+  "live_v10": [
+    "explicit match-decided confirmation",
+    "locked after scorer confirmation",
+    "official live score counts confirmed/locked matches only",
+    "test-data reset controls",
+    "post-close admin correction reserved for production backend"
+  ],
+  "new_page": "live-about.html"
 }
